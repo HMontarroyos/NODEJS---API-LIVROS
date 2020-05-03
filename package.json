@@ -1,0 +1,19 @@
+{
+  "name": "nodealura",
+  "version": "1.0.0",
+  "description": "CursoNodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "start": "nodemon server.js --ignore *.marko.js",
+  "author": "Hebert Montarroyos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "marko": "^4.21.6",
+    "nodemon": "2.0.3",
+    "sqlite3": "^4.2.0"
+  }
+}
